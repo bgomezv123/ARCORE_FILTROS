@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+
+        <item android:id="@+id/nav_item_home"
+            android:icon="@drawable/ic_home_24"
+            android:title="Inicio"/>
+
+        <item android:id="@+id/nav_item_profile"
+            android:icon="@drawable/ic_person_24"
+            android:title="Perfil"/>
+
+    </group>
+
+    <item
+        android:title="Sesión">
+        <menu>
+            <item android:id="@+id/nav_item_settings"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="Configuracion"/>
+
+            <item android:id="@+id/nav_item_about"
+                android:icon="@drawable/ic_about_24"
+                android:title="Acerca de"/>
+
+            <item android:id="@+id/nav_item_logout"
+                android:icon="@drawable/ic_logout_24"
+                android:title="Cerrar sesión"/>
+        </menu>
+    </item>
+
+</menu>

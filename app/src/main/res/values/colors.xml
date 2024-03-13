@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#222222</color>
+    <color name="colorActivityBackground">#f2f0ff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="titleColor">#333333</color>
+    <color name="buttonColor">#124F90</color>
+    <color name="linkColor">#7D8BCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="secondaryWhite">#EAEAE7</color>
+
+    <color name="colorGreenDark">#162534</color>
+</resources>

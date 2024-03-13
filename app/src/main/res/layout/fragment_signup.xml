@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorActivityBackground"
+    tools:context=".presentation.fragments.main.SignupFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="@color/titleColor"
+            android:textStyle="bold"
+            android:text="Registro"/>
+
+        <EditText
+            android:id="@+id/et_register_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Usuario"
+            android:layout_marginTop="16dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="#999999"
+            android:inputType="textEmailAddress"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+        <EditText
+            android:id="@+id/et_register_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Correo"
+            android:layout_marginTop="16dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="#999999"
+            android:inputType="textEmailAddress"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+
+        <EditText
+            android:id="@+id/et_register_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:layout_marginTop="16dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="#999999"
+            android:inputType="textPassword"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+        <EditText
+            android:id="@+id/et_register_password_2"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:hint="Password"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColorHint="#999999"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+        <Button
+            android:id="@+id/btn_register_register"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:text="Registrarse"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@color/buttonColor"/>
+
+        <Button
+            android:id="@+id/btn_register_back"
+            android:layout_width="match_parent"
+            android:paddingHorizontal="15dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="false"
+            android:background="@color/titleColor"
+            android:text="Regresar"/>
+
+    </LinearLayout>
+
+</FrameLayout>

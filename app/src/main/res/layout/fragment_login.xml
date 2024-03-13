@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorActivityBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.fragments.main.LoginFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="170dp"
+            android:layout_marginBottom="15dp"
+            android:src="@drawable/icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="@color/titleColor"
+            android:textStyle="bold"
+            android:text="Bienvenido"/>
+
+        <EditText
+            android:id="@+id/et_login_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Usuario"
+            android:layout_marginTop="16dp"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="#999999"
+            android:inputType="textEmailAddress"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+        <EditText
+            android:id="@+id/et_login_password"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:hint="Password"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:textColorHint="#999999"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="end"
+            android:textColor="@color/linkColor"
+            android:text="Olvidaste tu contraseña?"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:text="Ingresar"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@color/buttonColor"/>
+
+        <LinearLayout
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/black"
+                android:text="No tienes cuenta?"/>
+
+            <TextView
+                android:id="@+id/tv_register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@color/linkColor"
+                android:text="Registrate"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnGoogleSign"
+            android:layout_width="match_parent"
+            android:paddingHorizontal="15dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="false"
+            android:background="@color/titleColor"
+            android:drawableStart="@drawable/ic_google"
+            android:drawablePadding="8dp"
+            android:text="Ingresar con Google"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
